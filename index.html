@@ -1,71 +1,13 @@
 <!doctype html>
-<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>My Portfolio</title><link rel="stylesheet" href="styles.css" />
-<style>
-  .enviromonitor-section { padding: 85px 0 100px; background: var(--cream); }
-  .enviromonitor-section h2 { color: var(--ink); margin-bottom: 12px; }
-  .enviromonitor-intro { max-width: 700px; margin: 0 0 40px; color: var(--muted); font-size: 18px; }
-  .video-placeholder { width: 100%; min-height: 480px; margin-bottom: 65px; border-radius: 12px; background: #25364b; display: grid; place-items: center; overflow: hidden; }
-  .video-placeholder-inner { display: flex; flex-direction: column; align-items: center; gap: 10px; color: #fff; text-align: center; font-family: Outfit, Arial, sans-serif; }
-  .video-placeholder-inner span:last-child { color: #b8c3d4; font-size: 14px; }
-  .video-icon { width: 64px; height: 64px; border-radius: 50%; background: var(--blue); display: grid; place-items: center; font-size: 22px; padding-left: 3px; }
-  .environment-section { padding: 40px 0; border-top: 1px solid #d8d1c2; }
-  .environment-section h3 { margin: 0 0 20px; color: var(--ink); font-size: 27px; }
-  .environment-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
-  .environment-photo { min-height: 300px; border-radius: 10px; background: #e5ecf8; display: grid; place-items: center; color: var(--muted); font: 500 13px DM Mono, monospace; }
-  @media (max-width: 650px) {
-    .video-placeholder { min-height: 300px; }
-    .environment-grid { grid-template-columns: 1fr; }
-    .environment-photo { min-height: 240px; }
-  }
-</style>
-</head>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>My Portfolio</title><link rel="stylesheet" href="styles.css" /></head>
 <body>
   <header class="site-header"><div class="header-inner"><nav aria-label="Main navigation"><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav></div></header>
   <main>
     <section class="about-section" id="about"><div class="content"><h1>Welcome to My Portfolio</h1><p>Hello! I’m <strong>Abubakar Imran</strong>, a sophomore Computer Engineering student at Stony Brook University. I’m interested in embedded systems, hardware design, IoT, PCB design, and building practical projects that connect hardware and software.</p></div></section>
     <section class="projects-section" id="projects"><div class="content"><h2>Projects</h2><div class="project-grid">
-       <a class="project-card project-card-link" href="#enviromonitor"><h3>EnviroMonitor</h3><p class="skills">ESP32 | IoT | Embedded C++</p><p>An embedded system that monitors environmental conditions with sensors and shares useful data in real time.</p><span>View project ↓</span></a>
-       <a class="project-card project-card-link" href="project.html?id=alarm-clock"><h3>Digital Alarm Clock PCBA</h3><p class="skills">ATmega4809 | Embedded C | Digital Electronics</p><p>A working digital alarm clock with a programmable display, buttons, and alarm functionality.</p><span>Open project →</span></a>
-     </div></div></section>
-
-    <section class="enviromonitor-section" id="enviromonitor">
-      <div class="content">
-        <h2>EnviroMonitor</h2>
-        <p class="enviromonitor-intro">Environmental monitoring system using an ESP32, sensors, and a graphical display.</p>
-
-        <div class="video-placeholder">
-          <div class="video-placeholder-inner">
-            <span class="video-icon">▶</span>
-            <strong>EnviroMonitor Demo Video</strong>
-            <span>Video placeholder</span>
-          </div>
-        </div>
-
-        <div class="environment-section">
-          <h3>Outside Environment</h3>
-          <div class="environment-grid">
-            <div class="environment-photo">Photo 1</div>
-            <div class="environment-photo">Photo 2</div>
-          </div>
-        </div>
-
-        <div class="environment-section">
-          <h3>Indoor Environment</h3>
-          <div class="environment-grid">
-            <div class="environment-photo">Photo 1</div>
-            <div class="environment-photo">Photo 2</div>
-          </div>
-        </div>
-
-        <div class="environment-section">
-          <h3>Garage Environment</h3>
-          <div class="environment-grid">
-            <div class="environment-photo">Photo 1</div>
-            <div class="environment-photo">Photo 2</div>
-          </div>
-        </div>
-      </div>
-    </section>
+      <a class="project-card project-card-link" href="project.html?id=environmental-monitor"><h3>EnviroMonitor</h3><p class="skills">ESP32 | IoT | Embedded C++</p><p>An embedded system that monitors environmental conditions with sensors and shares useful data in real time.</p><span>Open project →</span></a>
+      <a class="project-card project-card-link" href="project.html?id=alarm-clock"><h3>Digital Alarm Clock PCBA</h3><p class="skills">ATmega4809 | Embedded C | Digital Electronics</p><p>A working digital alarm clock with a programmable display, buttons, and alarm functionality.</p><span>Open project →</span></a>
+    </div></div></section>
     <section class="contact-section" id="contact"><div class="content"><h2>Contact</h2><p>Want to work together, ask a question, or see more of my work? I’d love to hear from you.</p><div class="contact-links"><a href="mailto:you@example.com">Email me</a><a href="https://github.com/your-github-username" target="_blank" rel="noreferrer">GitHub</a><a href="https://linkedin.com/in/your-linkedin-username" target="_blank" rel="noreferrer">LinkedIn</a></div></div></section>
   </main>
   <footer>© <span id="year"></span> Abubakar Imran</footer><script src="script.js"></script>
