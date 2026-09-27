@@ -7,9 +7,9 @@ const projects = {
     github: "https://github.com/Abu-Git21/EnviromentMonitor",
     mainImage: "assets/environmental-monitor.svg",
     media: [
-      { type: "image", src: "assets/enviromonitor-sensor.jpg", label: "Sensor setup photo" },
-      { type: "image", src: "assets/enviromonitor-circuit.jpg", label: "Circuit photo" },
-      { type: "image", src: "assets/enviromonitor-display.jpg", label: "TFT display photo" },
+      { type: "image", src: "assets/enviromonitor-sensor.jpeg", label: "Sensor setup photo" },
+      { type: "image", src: "assets/enviromonitor-circuit.jpeg", label: "Circuit photo" },
+      { type: "image", src: "assets/enviromonitor-display.jpeg", label: "TFT display photo" },
       { type: "video", src: "assets/enviromonitor-demo.mp4", label: "Project demo video" }
     ],
     video: "",
@@ -26,7 +26,7 @@ const projects = {
     title: "Digital Alarm Clock PCBA",
     description: "A working digital alarm clock I built and programmed using an ATmega4809 microcontroller, with a 7-segment display, push-button controls, and alarm functionality.",
     github: "https://github.com/Abu-Git21/Digital-Alarm-Clock-PCBA/tree/main",
-    mainImage: "assets/alarm-clock.svg",
+    mainImage: "assets/alarm-clock.jpeg",
     media: [
       { type: "image", src: "assets/alarm-clock-pcb.jpg", label: "PCB photo" },
       { type: "image", src: "assets/alarm-clock-assembly.jpg", label: "Assembly photo" },
