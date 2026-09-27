@@ -25,7 +25,7 @@ const projects = {
   "alarm-clock": {
     title: "Digital Alarm Clock PCBA",
     description: "A working digital alarm clock I built and programmed using an ATmega4809 microcontroller, with a 7-segment display, push-button controls, and alarm functionality.",
-    github: "https://github.com/your-github-username",
+    github: "https://github.com/Abu-Git21/Digital-Alarm-Clock-PCBA/tree/main",
     mainImage: "assets/alarm-clock.svg",
     media: [
       { type: "image", src: "assets/alarm-clock-pcb.jpg", label: "PCB photo" },
