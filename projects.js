@@ -10,7 +10,7 @@ const projects = {
       { type: "image", src: "assets/enviromonitor-circuit.jpeg", label: "Circuit photo" },
       { type: "image", src: "assets/enviromonitor-display.jpeg", label: "TFT display photo" },
       { type: "video", src: "assets/enviromonitor-demo.mp4", label: "Project demo video" }    ],
-    video: "",
+    video: "assets/enviromonitor-demo.mp4",
     about: {
       paragraphs: [
         "The system uses an SCD30 sensor to monitor CO₂ concentration, temperature, and humidity, while an LDR measures ambient light levels. Two ultrasonic sensors provide proximity and distance detection.",
