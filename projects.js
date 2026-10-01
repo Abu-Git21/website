@@ -5,7 +5,7 @@ const projects = {
     title: "EnviroMonitor",
     description: "An ESP32-based environmental monitoring and alert system that brings real-time sensing, embedded control, wireless communication, and user interaction together in one platform.",
     github: "https://github.com/Abu-Git21/EnviromentMonitor",
-    mainImage: "assets/environmental-monitor.svg",
+    mainImage: "assets/FINAL.png",
     media: [
       { type: "image", src: "assets/enviromonitor-sensor.jpeg", label: "Sensor setup photo" },
       { type: "image", src: "assets/enviromonitor-circuit.jpeg", label: "Circuit photo" },
