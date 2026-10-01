@@ -7,11 +7,9 @@ const projects = {
     github: "https://github.com/Abu-Git21/EnviromentMonitor",
     mainImage: "assets/FINAL.png",
     media: [
-      { type: "image", src: "assets/enviromonitor-sensor.jpeg", label: "Sensor setup photo" },
       { type: "image", src: "assets/enviromonitor-circuit.jpeg", label: "Circuit photo" },
       { type: "image", src: "assets/enviromonitor-display.jpeg", label: "TFT display photo" },
-      { type: "video", src: "assets/enviromonitor-demo.mp4", label: "Project demo video" }
-    ],
+      { type: "video", src: "assets/enviromonitor-demo.mp4", label: "Project demo video" }    ],
     video: "",
     about: {
       paragraphs: [
