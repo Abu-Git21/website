@@ -9,12 +9,12 @@ const projects = {
 
     // Environment photos appear directly below the demo video.
     environmentPhotos: [
-      { src: "Room.jpeg", label: "Bedroom setup" },
-      { src: "Room Close.jpeg", label: "Bedroom close-up" },
-      { src: "Out.jpeg", label: "Outdoor setup" },
-      { src: "Out Close.jpeg", label: "Outdoor close-up" },
-      { src: "Garage.jpeg", label: "Garage setup" },
-      { src: "Garage Close.jpeg", label: "Garage close-up" }
+      { src: "assets/Room.jpeg", label: "Bedroom setup" },
+      { src: "assets/Room Close.jpeg", label: "Bedroom close-up" },
+      { src: "assets/Out.jpeg", label: "Outdoor setup" },
+      { src: "assets/Out Close.jpeg", label: "Outdoor close-up" },
+      { src: "assets/Garage.jpeg", label: "Garage setup" },
+      { src: "assets/Garage Close.jpeg", label: "Garage close-up" }
     ],
 
     // Hardware and component photos appear after the environment photos.
