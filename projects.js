@@ -9,12 +9,12 @@ const projects = {
 
     // Environment photos appear directly below the demo video.
     environmentPhotos: [
-      { src: "assets/Room.jpeg", label: "Bedroom setup" },
-      { src: "assets/Room Close.jpeg", label: "Bedroom close-up" },
-      { src: "assets/Out.jpeg", label: "Outdoor setup" },
-      { src: "assets/Out Close.jpeg", label: "Outdoor close-up" },
-      { src: "assets/Garage.jpeg", label: "Garage setup" },
-      { src: "assets/Garage Close.jpeg", label: "Garage close-up" }
+      { src: "Room.jpeg", label: "Bedroom setup" },
+      { src: "Room Close.jpeg", label: "Bedroom close-up" },
+      { src: "Out.jpeg", label: "Outdoor setup" },
+      { src: "Out Close.jpeg", label: "Outdoor close-up" },
+      { src: "Garage.jpeg", label: "Garage setup" },
+      { src: "Garage Close.jpeg", label: "Garage close-up" }
     ],
 
     // Hardware and component photos appear after the environment photos.
@@ -28,53 +28,67 @@ const projects = {
     ],
 
     about: {
-        paragraphs: [
-          "EnviroMonitor is an ESP32-based environmental monitoring system designed to collect and display information about the surrounding environment. It uses an SCD30 sensor to measure carbon dioxide (CO₂) concentration, temperature, and humidity. These measurements provide several indicators of the air conditions around the device.",
-
-          "An LDR (light-dependent resistor) is used to measure changes in ambient light. Its readings allow the system to track how bright or dark the surrounding area is. Together, the SCD30 and LDR provide the system with information about both air conditions and light levels.",
-
-          "The ESP32 acts as the main controller. It reads the sensor measurements, processes the incoming data, and sends the results to a 2.8-inch TFT display. The display presents the readings in an organized visual format, allowing the user to check the current measurements directly on the device instead of relying on a separate computer.",
-
-          "By combining the sensors, microcontroller, and display, EnviroMonitor brings data collection and visual feedback together in one embedded system. The project demonstrates how sensor inputs can be read by a microcontroller, processed, and presented in a form that is easy for a user to view."
-        ],
-        features: [
-          "SCD30 CO₂, temperature, and humidity monitoring",
-          "LDR ambient light measurement",
-          "ESP32 sensor data processing",
-          "Real-time sensor readings on a 2.8-inch TFT display"
-        ]
-      }
-    },
+      paragraphs: [
+        "The system uses an SCD30 sensor to monitor CO₂ concentration, temperature, and humidity, while an LDR measures ambient light levels. Two ultrasonic sensors provide proximity and distance detection.",
+        "Sensor data is processed by the ESP32 and presented through a 2.8-inch TFT display, with a joystick providing menu navigation and user control.",
+        "The project also incorporates LED and buzzer alerts for abnormal environmental conditions or detected proximity events. The ESP32’s built-in Wi-Fi and Bluetooth capabilities are designed to provide wireless monitoring, configuration, and control. An ESP32-CAM is planned as a camera subsystem for capturing images when specific events are detected."
+      ],
+      features: [
+        "CO₂, temperature, and humidity monitoring",
+        "Ambient light detection",
+        "Dual ultrasonic proximity detection",
+        "TFT-based graphical interface",
+        "Joystick-controlled menus",
+        "LED and buzzer alerts",
+        "Wi-Fi-based monitoring dashboard",
+        "Bluetooth-based configuration and control",
+        "ESP32-CAM event capture",
+        "Environmental status and alert processing"
+      ]
+    }
+  },
 
   "alarm-clock": {
     title: "Digital Alarm Clock PCBA",
     description: "A working digital alarm clock I built and programmed using an ATmega4809 microcontroller, with a 7-segment display, push-button controls, and alarm functionality.",
     github: "https://github.com/Abu-Git21/Digital-Alarm-Clock-PCBA/tree/main",
-    mainImage: "assets/alarm-clock.jpeg",
-    demoVideo: "assets/alarm-clock-demo.mp4",
+    mainImage: "assets/F6B79EF6-6F11-41CA-B233-B9F190F5453A.PNG",
+    schematic: "assets/SKIMATIC.png",
     environmentPhotos: [],
     components: [
-      { src: "assets/alarm-clock-pcb.jpg", label: "PCB photo" },
-      { src: "assets/alarm-clock-assembly.jpg", label: "Assembly photo" },
-      { src: "assets/alarm-clock-display.jpg", label: "Clock display" }
+      { src: "assets/alarm-clock-pcb.jpg", label: "Clock PCB" },
+      { src: "assets/alarm-clock-assembly.jpg", label: "Assembled clock hardware" },
+      { src: "assets/alarm-clock-display.jpg", label: "Clock display close-up" }
     ],
     about: {
       heading: "About the clock",
       listHeading: "Skills",
       paragraphs: [
-        "I built and programmed a digital alarm clock around an ATmega4809 microcontroller. The finished system uses a 7-segment display to show the time and push buttons to control the clock and alarm settings.",
-        "I connected and soldered the electronic components needed for the clock, including resistors, capacitors, LEDs, push buttons, transistors, and the display. I then wrote the embedded code that controls the display, reads button input, keeps track of time, and activates the alarm.",
-        "This project gave me hands-on experience creating a complete hardware-and-software system. It strengthened my skills in embedded programming, troubleshooting circuits, debugging code, and making a physical device respond reliably to user input."
+    "I built and programmed a digital alarm clock around an ATmega4809 microcontroller. The finished system uses a 7-segment display to show the time and push buttons to control the clock and alarm settings.",
+
+    "I assembled and soldered the electronic components on the clock's PCB, including the ATmega4809 microcontroller, resistors, capacitors, LEDs, diodes, transistors, push buttons, a buzzer, a 7-segment display, a USB connector, and pin headers. The resistors and capacitors support the circuit's electrical operation, while the LEDs provide visual indicators. The buttons let the user interact with the clock, and the buzzer provides the alarm sound.",
+
+    "I then wrote the embedded code that controls the display, reads button inputs, keeps track of time, and activates the alarm. I tested the hardware and software together to check that the components worked as part of one system.",
+
+    "The circuit schematic shown on this page was provided as part of the course lab materials. I used it as a reference while assembling and testing the clock. I did not design the schematic myself.",
+
+    "This project gave me hands-on experience with PCB assembly, soldering, embedded programming, circuit troubleshooting, and integrating hardware with software."
       ],
       features: [
-        "ATmega4809",
-        "Embedded C",
-        "Microcontroller programming",
-        "Soldering",
-        "Digital electronics",
-        "Hardware debugging",
-        "Push-button controls",
-        "7-segment displays"
+    "ATmega4809 microcontroller",
+    "Resistors",
+    "Capacitors",
+    "LEDs",
+    "Diodes",
+    "Transistors",
+    "Push buttons",
+    "Buzzer",
+    "7-segment display",
+    "USB connector",
+    "Pin headers",
+    "Embedded C",
+    "PCB assembly and soldering",
+    "Hardware debugging"
       ]
     }
   }
@@ -132,6 +146,20 @@ if (!content) {
       <div class="media-grid">${items.map(imageCard).join("")}</div>
     </section>` : "";
 
+  const schematic = project.schematic ? `
+    <section class="media-section">
+      <h2>Circuit schematic</h2>
+      <div class="project-gallery">
+        <figure class="gallery-item">
+          <button class="image-open" type="button" aria-label="Open circuit schematic">
+            <img src="${project.schematic}" alt="${project.title} circuit schematic" onerror="this.closest('.gallery-item').classList.add('missing-image')" />
+            <span class="image-zoom-hint">Click to enlarge</span>
+          </button>
+          <figcaption>This schematic was provided as part of the course lab materials. I used it as a reference while assembling and testing the clock; I did not design the schematic myself. Click to enlarge and inspect the circuit connections.</figcaption>
+        </figure>
+      </div>
+    </section>` : "";
+
   const about = project.about ? `
     <section class="media-section project-about">
       <h2>${project.about.heading || `About ${project.title}`}</h2>
@@ -174,8 +202,9 @@ if (!content) {
     <a class="github-link" href="${project.github}" target="_blank" rel="noreferrer">View Code Space →</a>
     ${mainImage}
     ${demoVideo}
+    ${schematic}
     ${renderImageSection("Environment photos", project.environmentPhotos)}
-    ${renderImageSection("Hardware & components", project.components)}
+    ${renderImageSection(project.schematic ? "Additional hardware photos" : "Hardware & components", project.components)}
     ${about}
   `;
 
