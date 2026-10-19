@@ -10,7 +10,7 @@ const projects = {
     // Environment photos appear directly below the demo video.
     environmentPhotos: [
       { src: "assets/Room.jpeg", label: "Bedroom setup" },
-      { src: "assets/Room Close.jpeg", label: "Bedroom close-up" },
+      { src: "assets/Room CLose.jpeg", label: "Bedroom close-up" },
       { src: "assets/Out.jpeg", label: "Outdoor setup" },
       { src: "assets/Out Close.jpeg", label: "Outdoor close-up" },
       { src: "assets/Garage.jpeg", label: "Garage setup" },
