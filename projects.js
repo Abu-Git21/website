@@ -25,6 +25,7 @@ const projects = {
       { src: "assets/enviromonitor-ldr.jpeg", label: "LDR light sensor" },
       { src: "assets/enviromonitor-ultrasonic.jpeg", label: "Ultrasonic distance sensors" },
       { src: "assets/enviromonitor-setup.jpeg", label: "ESP32 and complete hardware setup" }
+      { src: "assets/enviromonitor-esp32cam.jpeg", label: "ESP32 Microcontroller" },
     ],
 
     about: {
